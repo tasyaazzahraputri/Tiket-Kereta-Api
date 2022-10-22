@@ -20,6 +20,8 @@ def TUJUAN():
             tujuan = 2
         elif x == 3:
             tujuan = 3
+        else:
+            TUJUAN()
     
     except :
         print('Silakan pilih 1 - 3')
