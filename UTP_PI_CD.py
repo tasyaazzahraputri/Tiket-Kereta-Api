@@ -97,13 +97,13 @@ else:
     clas = "KA Kualastabas"
     
 if destination == 'Labuhan Ratu - Bekri' and clas == "KA Seminung":
-    harga = 10000
+    harga = 10_000
 elif destination == 'Labuhan Ratu - Kota Bumi' and clas == "KA Seminung":
-    harga = 10000
+    harga = 10_000
 elif destination == 'Labuhan Rau - Baturaja' and clas == "KA Kualastabas":
-    harga = 60000
+    harga = 60_000
 else:
-    harga = 30000
+    harga = 30_000
 
     
 print(Fore.GREEN + "------------------------------------------------")
